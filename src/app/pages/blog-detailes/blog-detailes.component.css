@@ -1,0 +1,48 @@
+.row {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.card {
+    background-color: rgb(233, 229, 229);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.cardbody:hover {
+  
+    cursor: pointer;
+}
+
+
+.cardbody {
+    padding: 30px;
+}
+
+.cardbody img {
+    float: left;
+    max-width: 330px;
+    height: auto;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+
+
+button {
+    background-color:green;
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.btn2 {
+    background-color:red;
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+

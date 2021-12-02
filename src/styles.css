@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    overflow-x: hidden;
+}
+.container{
+    
+    width: 100%;
+    
+clear: both;
+
+}
+.card {
+ 
+    width: 50%;
+    display: inline-block;
+}
+.cardbody{
+    width: 90%;
+}

@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    
+    
+}
+.header{
+    padding: 20px;
+    height: 80px;
+    
+    border-radius: 10px;
+    background-color: rgb(44, 148, 84);
+    
+
+}
+img{
+    width:180px; 
+    
+}
+ul{
+    float: right;
+}
+li{
+    color: white;
+    font-size: 25px;
+    display: inline;
+    margin: 15px;
+}

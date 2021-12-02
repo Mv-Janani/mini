@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="card" >
+<div class="cardbody" >
+    <img src="{{blog.urlToImage}}" *ngIf="blog.urlToImage != null else noimg"> 
+                     <ng-template #noimg>
+                         <img src="../../../assets/images/no-image.png">
+                     </ng-template>
+    <h2>{{blog.author | uppercase }}</h2> 
+  
+   <p>{{blog.description}}</p>  
+   <button type="button" routerLink="/add/{{blog.url}}" class="btn1">Update</button>
+  <button  type="button" (click)='deleteBlog()' class='btn2'>Delete</button>
+
+</div>
+</div>
+</div>
+

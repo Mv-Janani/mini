@@ -1,0 +1,61 @@
+.row {
+    width: 100%;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(233, 229, 229);
+    width: 80%;
+    margin: 0 auto;
+  
+    margin-top: 40px;
+}
+
+
+
+.cardbody {
+    padding: 30px;
+}
+
+.cardbody img {
+    float: left;
+    max-width: 330px;
+    height: auto;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+
+
+button {
+    background-color: rgb(233, 171, 39);
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+button:hover{
+    box-shadow: 0 20px 40px rgba(24, 24, 23, 0.4);
+    cursor: pointer;
+}
+.btn{
+    width:200px;
+    height:60px;
+    margin-top: 40px;
+    float: right;
+    border-radius: 25px;
+    background-color: rgb(17, 185, 87);
+    font-size: 20px;
+    color:white;
+    font-weight: bolder;
+    transition: 0.3s;
+
+}
+.btn:hover{
+    
+        box-shadow: 0 20px 40px rgba(13, 170, 83, 0.4);
+        cursor: pointer;
+    
+}

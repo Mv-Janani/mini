@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="card" *ngFor='let blog of bloglist; let i=index;'>
+<div class="cardbody" *ngIf="i<4">
+    <img src="{{blog.urlToImage}}" *ngIf="blog.urlToImage != null else noimg"> 
+                     <ng-template #noimg>
+                         <img src="../../../assets/images/no-image.png">
+                     </ng-template>
+    <h2>{{blog.author | uppercase }}</h2> 
+   <h5> {{blog.title | slice:0:70}}</h5>   
+   <p>{{blog.description | slice:0:250}}</p>  
+  
+</div>
+</div>
+<button routerLink="/blog">Read More</button>
+
+</div>
